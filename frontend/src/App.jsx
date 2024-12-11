@@ -15,7 +15,6 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <div className="mx-[5%] sm:mx-[10%]">
-      <h1 className="text-5xl">YOUTUBE: 4:17:21</h1>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
